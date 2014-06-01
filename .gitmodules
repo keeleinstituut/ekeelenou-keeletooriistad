@@ -1,0 +1,3 @@
+[submodule "jsEKIToolkit"]
+	path = jsEKIToolkit
+	url = git@github.com:keeleinstituut/jsEKIToolkit.git
