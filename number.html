@@ -10,7 +10,7 @@
 		<script src="EKIToolkit.js" class="votasee"></script>
 	</head>
 
-<body onload="comp(); convert();">
+<body>
 
 <div id="page_content">
     <h1 id="bigword">Numbrite sõnadeks väljakirjutaja</h1>
@@ -21,7 +21,7 @@
 	  <!-- <input type="submit" name="analyze" value="Analüüsi"> -->
     <div id="result" contenteditable="false"></div>
     
-		<textarea id="et" class="hidden">
+		<data-soros-rules id="numbrireeglid-formaalne" class="hidden">
 		__numbertext__
 		^0 null
 		1 üks
@@ -87,7 +87,9 @@
 		"(.+)[ ]*°[Cc]?" $1 Celsiuse kraadi
 		"1[ ]*°[Ff]" üks Fahrenheiti kraad
 		"(.+)[ ]*°[Ff]" $1 Fahrenheiti kraadi
-		</textarea>
+		</data-soros-rules>
+		<data-soros-rules id="numbrireeglid-argikeelne" class="hidden">
+		</data-soros-rules>
 	<script>comp(); convert();</script>
 </div>
 </body></html>
