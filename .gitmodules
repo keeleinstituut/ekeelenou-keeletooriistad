@@ -1,6 +1,6 @@
 [submodule "jsEKIToolkit"]
 	path = jsEKIToolkit
-	url = git@github.com:keeleinstituut/jsEKIToolkit.git
+	url = https://github.com/keeleinstituut/jsEKIToolkit.git
 [submodule "soros-et"]
 	path = soros-et
-	url = git@github.com:keeleinstituut/Soros-eesti-numbrid.git
+	url = https://github.com/keeleinstituut/Soros-eesti-numbrid.git
